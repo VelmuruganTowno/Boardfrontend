@@ -1,0 +1,86 @@
+.card-itemweek {
+  cursor: pointer;
+  transition: all 0.3s;
+  height: 100%;
+  margin: 10px;
+  width: 90% !important;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fff;
+}
+.card-itemweek .card-top img {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-itemweek .card-top span {
+  position: absolute;
+  color: #fff;
+  background: #000;
+  width: 100px;
+  top: 15px;
+  padding: 2px 0px 2px 2px;
+  font-size: 13px;
+  font-weight: 500;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-itemweek .card-bottom {
+  padding: 10px 20px;
+  
+}
+.card-itemweek .card-info {
+  color: #000;
+}
+.card-itemweek .card-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+.card-itemweek .card-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  color: #f46d25;
+}
+.card-itemweek .card-info p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
+.card-itemweek .card-info button {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #f46d25;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+.card-itemweek .card-info .roombutton {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #f46d25;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) { 
+
+  .card-itemweek {
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 80%;
+    margin: 0px;
+    width: 100% !important;
+    border-radius: 10px;
+    position: relative;
+    background-color: #F4F4F4;
+  }
+   
+}

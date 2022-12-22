@@ -1,0 +1,38 @@
+.clientcard {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  margin: 10px 0px;
+
+  .title {
+    background: #F46D25;
+    border-radius: 7px 7px 0px 0px;
+    padding: 0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+      width: 70%;
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px;
+      color: #fff;
+    }
+  }
+
+  .bookingContent {
+    display: flex;
+    padding: 5px 15px;
+
+    h5 {
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 15px;
+      margin: 0px;
+      width: 50%; 
+    }
+  }
+}

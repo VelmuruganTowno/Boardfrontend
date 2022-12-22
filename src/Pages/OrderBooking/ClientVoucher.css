@@ -1,0 +1,25 @@
+.client_voucher {
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  padding: 0px 2rem;
+  margin: 10px;
+}
+
+.client_voucher .topic_mail {
+  background-color: #000;
+}
+.client_voucher .topic_mail .topic_h2 {
+  color: "#fff"
+}
+
+
+
+
+/* @media only screen and (max-width: 767px) {
+  .clientvoucher {
+    padding:1px;
+    background-color:#F7F7F7;
+    margin: 0 auto;
+    width: 50%;
+  }
+} */

@@ -1,0 +1,67 @@
+.sideimage {
+  margin-top: 40px;
+}
+
+.sideimage img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentLogin {
+  margin-top: 130px;
+}
+
+.contentLogin h1 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.contentLogin img {
+  vertical-align: bottom;
+  height: 50px;
+}
+
+.contentLogin .powered img {
+  height: 25px;
+}
+
+.contentLogin .powered h3 {
+  margin: 0px;
+  font-weight: 500;
+}
+
+.contentLogin p {
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.contentregister {
+  margin-top: 100px;
+}
+
+.contentregister h1 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.contentregister img {
+  vertical-align: bottom;
+  height: 50px;
+}
+
+.contentregister p {
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+
+.contentregister .powered img {
+  height: 25px;
+}
+
+.contentregister .powered h3 {
+  margin: 0px;
+  font-weight: 500;
+}

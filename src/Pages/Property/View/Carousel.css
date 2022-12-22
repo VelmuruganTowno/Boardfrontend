@@ -1,0 +1,15 @@
+/* .slick-slide img {
+  display: block;
+  margin: auto;
+  height: 305px;
+  width: 100%;
+} */
+.slick-prev {
+  z-index: 100;
+  left: 20px !important;
+}
+
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
+}

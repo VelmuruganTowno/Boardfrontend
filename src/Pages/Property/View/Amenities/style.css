@@ -1,0 +1,26 @@
+.amlistView ul li {
+  width: 50%;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.amlistView ul li:before {
+  content: "• ";
+  font-size: 24px;
+  color: #f46d25;
+  position: relative;
+  top: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+  .amlistView ul  {
+    padding-left: 10px;
+  }
+  .amlistView ul li {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}

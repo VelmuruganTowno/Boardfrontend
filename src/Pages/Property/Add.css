@@ -1,0 +1,136 @@
+.main {
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  top: 68px;
+  left: 0;
+  height: 100%;
+  background: #000;
+  z-index: 100;
+  transition: all 0.5s ease;
+}
+
+.layout {
+  padding-top: 100px;
+  vertical-align: top;
+}
+
+.nav-links {
+  height: 100%;
+  position: relative;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-links .listing {
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+  color: #fff;
+  min-height: 50px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f46d25b8;
+}
+
+.nav-links .listingAmen {
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+  color: #fff;
+  min-height: 44px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f46d25b8;
+}
+
+.nav-links .listingAmen a {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.nav-links .listing a {
+  width: 100%;
+  padding: 11px;
+  color: #fff;
+}
+
+.nav-links .listing i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.nav-links .listing .link_name {
+  color: #fff;
+}
+
+.nav-links .listinghide a {
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-links .listinghide {
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+  color: #fff;
+  min-height: 50px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f46d25b8;
+}
+
+.nav-links .listinghide i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.nav-links .listinghide .link_name {
+  color: #fff;
+}
+
+.nav-links .listinghide .link_name {
+  color: #fff;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.disablenone {
+  cursor: pointer;
+}
+
+.nav-links .active-link {
+  background: #f46d25;
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backbutton {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 2px;
+  justify-content: center;
+}

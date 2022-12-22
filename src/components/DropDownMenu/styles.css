@@ -1,0 +1,79 @@
+/* Material dropdown */
+.headerDropdownContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.activeclass {
+  background: #F46D25;
+  color: #fff !important;
+}
+
+.dropdown {
+  right: 50%;
+  position: absolute;
+  width: 150px;
+  transform: translateX(50%);
+  z-index: 2000;
+  display: none;
+}
+
+
+.dropdownMenu {
+  background: #fff;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 2px;
+}
+
+.headerDropdownContainer:hover .dropdown {
+  display: block;
+}
+
+.headerDropdownContainer:target .dropdown{
+  display: none;
+}
+.upArrowContainer {
+  position: relative;
+  width: 100%;
+  height: 10px;
+
+}
+.upArrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.headerDropdownMenu {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+
+.headerDropdownMenu li {
+  list-style: none;
+}
+
+.headerDropdownMenu li a {
+  display: block;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  color: #212121;
+  text-decoration: none;
+}
+
+
+/* .headerDropdownMenu li a:hover {
+  background-color: #F46D25;
+  color: #fff;
+  cursor: pointer;
+} */

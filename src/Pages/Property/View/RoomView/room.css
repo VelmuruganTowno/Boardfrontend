@@ -1,0 +1,38 @@
+
+.listView {
+  margin: 10px;
+}
+.listView ul li {
+  width: 50%;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+
+
+.listView ul li:before {
+  content: "• ";
+  font-size: 24px;
+  color: #f46d25;
+  position: relative;
+  top: 2px;
+}
+
+.listView ul li::first-letter {
+  text-transform: capitalize;
+  color: #f46d25;
+}
+
+@media only screen and (max-width: 767px) {
+  .listView ul  {
+    padding-left: 10px;
+  }
+  .listView ul li {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}

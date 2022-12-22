@@ -1,0 +1,41 @@
+.nav-links {
+  height: 100%;
+  position: relative;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-links .listing {
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+  color: #fff;
+  min-height: 40px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f46d25b8;
+}
+
+.nav-links .listing a {
+  width: 100%;
+  padding: 11px;
+  color: #fff;
+}
+
+.nav-links .listing .link_name {
+  color: #fff;
+}
+
+.nav-links .active-link {
+  background: #f46d25;
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
